@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>YU Bank | Home</title>
+
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<link href="first.css" rel="stylesheet" />
+</head>
+
+<body>
+	<script>
+	function highlight()
+	{
+		let x = document.getElementsByClassName("head-con2-text");
+		for(let i=0; i<x.length; i++)
+		{
+			x[i].style.visibility = "visible";
+		}
+	}
+	</script>
+	
+	<nav class="navigation">
+		<span class="nav-title">YU Bank</span>
+		<ul class="list-dis">
+			<li class="list-item-inline"><a class="link link-active link-nav" href="index.html">Home</a></li>
+			<li class="list-item-inline"><a class="link link-nav" href="customer.jsp"> Customers</a></li>
+			<li class="list-item-inline"><a class="link link-nav" href="history.jsp">History</a></li>
+		</ul>
+	</nav>
+	
+	<header>
+		<div class="head-con">
+			<img class="head-img" src="images/head-pic.svg">
+			<div class="head-text head-text1">Transfer money easily with YU Bank!</div>
+			<div class="head-text head-text2 italicc">( --The Sparks Foundation-- )</div>
+			<div class="head-btn">
+				<button onclick="highlight()" class="btn link-nav link-active">Get Started --></button>
+			</div>
+		</div>
+		
+		<div class="head-con head-con2">
+			<h2 id="text" class="head-con2-text">Here you go-</h2>
+			<ul id="text2" class="head-con2-text head-list">
+				<li>1. Select the customer who wants to do the transaction.</li>
+				<li>2. Enter the amount & receiver's name.</li>
+				<li class="italicc">... & hence, you are done!</li>
+			</ul>
+			<p class="head-con2-text prop">- A safe & secure transaction!</p>
+			<p class="head-con2-text prop">- An easy and smooth transfer of money!</p>
+			<p class="head-con2-text prop">- A fast process on just a click!</p>
+		</div>
+	</header>
+	
+</body>
+</html>

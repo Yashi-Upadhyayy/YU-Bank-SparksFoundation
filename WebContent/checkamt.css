@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=PT+Serif&display=swap');
+
+body
+{
+	margin: 0px;
+	font-family: 'PT Serif', serif;
+	background: #FEF9C3;
+}
+a
+{
+	height: 100vh;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 15px;
+	background: #7f1d1d;
+	border-radius: 10px;
+	margin: 0px 39%;
+	border: 4px solid white;
+}
+a:hover
+{
+	color: yellow;
+}
+div
+{
+	margin-top: 20%;
+}

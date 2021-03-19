@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+body 
+{
+	background-image: url("images/background-img.jpg");
+}
+h2 
+{
+	text-align: center;
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+}
+h3 
+{
+	text-align: center;
+	margin-top: 10px;
+	font-weight: normal;
+}
+table 
+{
+	border-collapse: collapse;
+	margin: auto;
+	padding: 10px;
+	font-size: 17px;
+	margin-bottom: 50px;
+	width:88%;
+	margin-top: 10px;
+}
+td, th 
+{
+	border: 1.5px solid #7F1D1D;
+	border-radius: 1.5px;
+	padding: 10px;
+	text-align: center;
+}
+tr:nth-child(odd) 
+{
+	background-color: #FFFBEB;
+}
+tr:nth-child(even) 
+{
+	background-color: #FECACA;
+}
+tr:hover 
+{
+	background-color: #ddd;
+}
+th 
+{
+	background-color: #7F1D1D;
+	color: white;
+}
+.trans-btn
+{
+    text-decoration: none;
+    border: 1px solid #7F1D1D;
+    padding: 5px;
+    border-radius: 1rem;
+    margin: 3px;
+    background: #F87171;
+    color: white;
+}

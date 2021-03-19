@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=PT+Serif&display=swap');
+
+body
+{
+	margin: 0px;
+	font-family: 'PT Serif', serif;
+	background: #FEF9C3;
+}
+.link:hover
+{
+    color: yellow;
+}
+
+/* ..........Navigation........... */
+.navigation
+{
+    background-color: #7F1D1D;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.nav-title
+{
+	font-family: 'Fondamento', cursive;
+	font-size: 35px;
+	padding-left: 40px;
+	color: white;
+}
+
+/* List */
+.list-dis
+{
+    list-style: none;
+    display: inline;
+    margin-left: 5%;
+}
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 1.5rem;
+}
+
+/* Link */
+.link
+{
+	text-decoration: none;
+}
+.link-nav
+{
+	font-size: 20px;
+	color: white;
+}
+.link-active
+{
+	font-weight: bold;
+	font-size: 23px;
+}
+
+/* ..............Header............ */
+.head-con
+{
+	width: 50%;
+	float: left;
+	height: 89vh;
+}
+
+/* Container 1 */
+.head-img
+{
+	max-width: 360px;
+	display: block;
+    margin: auto; 
+    padding: 50px 0px;
+}
+.head-text
+{
+	text-align: center;
+	color: #3F3F46;
+}
+.head-text1
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+.head-text2
+{
+	font-size: 20px;
+}
+.head-btn
+{
+	background: #7F1D1D;
+	text-align: center;
+	margin: 10px 30%; 
+	border-radius: 0.5rem;
+	padding: 3px;
+}
+.btn
+{
+	background-color: #7F1D1D;
+	border: none;
+	font-family: 'PT Serif', serif;
+}
+
+/* Container 2 */
+.head-con2
+{
+	background-image: url("images/mon.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 5px 10px 8px 10px #888888;
+}
+.head-con2-text
+{
+	padding-left: 15px;
+	visibility: hidden;
+}
+.head-list
+{
+	font-size: 20px;
+	list-style: none;
+}
+.italicc
+{
+	font-style: italic;
+}
+.prop
+{
+	font-weight: bold;
+	font-size: 23px;
+	margin: 1.5px;
+	color: #800080;
+}
+.prop:hover
+{
+	background-color: #e6e6e6;
+}
+
+
+
+
+
