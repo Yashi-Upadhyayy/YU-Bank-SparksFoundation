@@ -1,2 +1,2 @@
-# YU-Bank-SparksFoundation
-This is a short and simple website created using HTML5, CSS3, Javascript, jsp and MySQL under the Sparks Foundation GRIPMAR21 internship. Its functionality includes transfer of money and recording of transactions just like in a bank. 
+# YU Bank
+This is a simple website which performs basic operations of a banking system such as transfer of money from person to person and tracking all transactions happened. 
